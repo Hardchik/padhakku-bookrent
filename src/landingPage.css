@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.logo {
+    margin-top: 5vh;
+}
+
+.logo img {
+    width: 25vw;
+}
+
+.poster {
+    margin-top: 5vh;
+}
+
+.poster img {
+    width: 80%;
+    border: 5px solid #23283B;
+
+}
+
+.content {
+    text-align: justify;
+    padding: 30px;
+    font-family: 'comic-sans';
+    font-weight: 500;
+    font-size: 2vh;
+}
+
+.button {
+    background-color: #23283B;
+    padding: 1rem;
+    text-decoration: solid;
+    border: 3px solid #23283B;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: #FE9800;
+    border: 3px solid #23283B;
+}
