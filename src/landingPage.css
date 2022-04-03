@@ -1,14 +1,15 @@
 .container {
     text-align: center;
-    margin-bottom: 2vh;
+    /* margin-bottom: 2vh; */
 }
 
 .logo {
-    margin-top: 5vh;
+    padding: 1vh;
+    background-color: #23283B;
 }
 
 .logo img {
-    width: 25vw;
+    width: 40vw;
 }
 
 .poster {
@@ -22,22 +23,42 @@
 }
 
 .content {
-    text-align: justify;
-    padding: 30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: 'comic-sans';
     font-weight: 500;
-    font-size: 2vh;
+    font-size: 4vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3vh;
 }
 
 .rent_button {
     background-color: #23283B;
     padding: 1rem;
     text-decoration: solid;
-    border: 3px solid #23283B;
+    border: 2px solid #23283B;
     border-radius: 10%;
     text-decoration: none;
     color: white;
     font-weight: 700;
+    margin-bottom: 4vh;
+}
+
+.whatsapp_button {
+    background-color: #23283B;
+    padding: 1rem;
+    text-decoration: solid;
+    border: 2px solid #23283B;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 4vh;
 }
 
 .button:hover {
